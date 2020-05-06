@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8"/>
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<style>
+.flex-container {
+  display: flex;
+ flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color:white;
+  width: 600px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.title{
+   font-weight: bold;
+}
+.img_logo{
+   width: 30px;
+   text-align: center;
+}
+.div_logo{
+  text-align: left;
+}
+
+
+</style>
+<script type="text/javascript">
+  $(function(){
+$("#txtBusca").keyup(function(){
+  
+    });
+});
+
+
+});
+</script>
+
+
+
+
+</head>
+
+
+
+<body>
+  <div class="container">
+    <div class="card text-center">
+      <div class="card-header">
+          Filtros:
+      </div>
+      <div class="card-body">
+            Nome:<input type="text" id="txtBusca" placeholder="Digite aqui um valor para filtrar..."/><br>
+            <div class="card-title"> Formas de Pagamento:<br>
+                <input type="checkbox" class='pgto' value="dinheiro" class="messageCheckbox" /> Dinheiro<br>
+                <input type="checkbox" class='pgto' value="crédito" class="messageCheckbox" /> Cartão de crédito<br>
+                <input type="checkbox" class='pgto' value="débito" class="messageCheckbox" /> Cartão de Débito<br>
+                <input type="checkbox" class='pgto' value="boleto" class="messageCheckbox" /> Boleto<br>
+                <input type="checkbox" class='pgto' value="transferência"class="messageCheckbox" /> Transferência bancária<br>
+                <input type="checkbox" class='pgto' value="permuta" class="messageCheckbox" /> permuta<br>
+            </div>
+      </div>
+    </div>
+  </div>
+  <br>
+<div id="mayor" class="flex-container">
+
+
+  <div  class='div_logo'>VENDEDOR DE AUTOMÓVEIS<br> <span class='contato'>Jacques Leão</span> <br> <span class='title'> Empresa: </span> <span id='empresa'>Hyundai T-9</span><br><span class='title'>Serviço: </span>Venda de veículos novos<br> <span class='title'><img src='img_pagamento.jpg' class='img_logo'> Pagamento: </img></span>Dinheiro, Cartão de crédito, transferência bancária, boleto<br><span class='title'><img src='img_contato.jpg' class='img_logo'> Contato: </img></span>(062) 98137-2002</div>
+  <div  class='div_logo'>ESCRITÓRIO DE ADVOCACIA<br> <span class='contato'>Celma Borges</span> <br> <span class='title'> Empresa: </span> <span id='empresa'>Borges Rocha Advocacia</span><br><span class='title'>Serviço: </span>Assesoria Jurídica<br> <span class='title'><img src='img_pagamento.jpg' class='img_logo'> Pagamento: </img></span>Dinheiro, Transferência bancária e permuta<br><span class='title'><img src='img_contato.jpg' class='img_logo'> Contato: </img></span>(062) 98137-3069</div>
+  <div  class='div_logo'>CLIMATIZADORES<br> <span class='contato'>Sérgio Luiz Perin</span> <br> <span class='title'> Empresa: </span> <span id='empresa'>Brisa Climatizadores</span><br><span class='title'>Serviço: </span>Venda, locação, instalação, assistência técnica e manutenção em climatizadores evaporativos – atendemos indústrias e residências<br> <span class='title'><img src='img_pagamento.jpg' class='img_logo'> Pagamento: </img></span>Dinheiro, Cartão de crédito, Cartão de débito, Transferência bancária, Boleto<br><span class='title'><img src='img_contato.jpg' class='img_logo'> Contato: </img></span>(062) 98147-7607</div>
+  <div  class='div_logo'>EDUCAÇÃO<br> <span class='contato'>Cássia Monteiro</span> <br> <span class='title'> Empresa: </span> <span id='empresa'>Cássia Monteiro Aulas Particulares</span><br><span class='title'>Serviço: </span>Acompanhamento de tarefas escolares e reforço escolar. (Educação Infantil e Ensino Fundamental - 1, 2 e 3 anos)<br> <span class='title'><img src='img_pagamento.jpg' class='img_logo'> Pagamento: </img></span>Dinheiro, Transferência bancária<br><span class='title'><img src='img_contato.jpg' class='img_logo'> Contato: </img></span>(062) 98166-7365</div>
+  <div  class='div_logo'>EDUCAÇÃO<br> <span class='contato'>Kézia Alves</span> <br> <span class='title'> Empresa: </span> <span id='empresa'>Microlins Goiânia</span><br><span class='title'>Serviço: </span>Cursos profissionalizantes, Preparatórios para concursos, ENEM e OAB. A partir de agosto, cursos Técnicos de Nível Médio. <br> <span class='title'><img src='img_pagamento.jpg' class='img_logo'> Pagamento: </img></span>Dinheiro, Cartão de crédito, Cartão de débito, Transferência bancária, Boleto, Permuta<br><span class='title'><img src='img_contato.jpg' class='img_logo'> Contato: </img></span>(062) 98120-2890</div>
+  <div  class='div_logo'>ARTESANATO<br> <span class='contato'>Ana Carla Borges</span> <br> <span class='title'> Empresa: </span> <span id='empresa'>Studioanacarlla</span><br><span class='title'>Serviço: </span>Artesanato em geral e papelaria personalizada<br> <span class='title'><img src='img_pagamento.jpg' class='img_logo'> Pagamento: </img></span>Dinheiro,Cartão de crédito, Cartão de débito e Transferência bancária<br><span class='title'><img src='img_contato.jpg' class='img_logo'> Contato: </img></span>(062) 98155-8655</div>
+  <div  class='div_logo'>PAPELARIA<br> <span class='contato'>Ana Carla e Márcio</span> <br> <span class='title'> Empresa: </span> <span id='empresa'>Brinquedo e Papel</span><br><span class='title'>Serviço: </span>Loja de Brinquedos e Papelaria On-Line<br> <span class='title'><img src='img_pagamento.jpg' class='img_logo'> Pagamento: </img></span>Dinheiro, Cartão de crédito, Cartão de débito, Transferência bancária, Boleto<br><span class='title'><img src='img_contato.jpg' class='img_logo'> Contato: </img></span>(062) 98595-1884</div>
+  <div  class='div_logo'>VESTUÁRIO<br> <span class='contato'>Magda</span> <br> <span class='title'> Empresa: </span> <span id='empresa'>Star Noivas</span><br><span class='title'>Serviço: </span>Vestuário para noivas, damas, madrinhas. Fabricamos máscaras.<br> <span class='title'><img src='img_pagamento.jpg' class='img_logo'> Pagamento: </img></span>Dinheiro, Cartão de crédito, Cartão de débito, Transferência bancária, Permuta<br><span class='title'><img src='img_contato.jpg' class='img_logo'> Contato: </img></span>(062) 99357-6336</div>
+  <div  class='div_logo'>ARTESANATO<br> <span class='contato'>Cássia Monteiro</span> <br> <span class='title'> Empresa: </span> <span id='empresa'>Ateliê Flor d`Cássia</span><br><span class='title'>Serviço: </span>Flores de papel (gigantes e para arranjos), topos de bolo, quadros decorativos, porta maternidade, caixinhas para presentes.<br> <span class='title'><img src='img_pagamento.jpg' class='img_logo'> Pagamento: </img></span>Dinheiro, Transferência bancária<br><span class='title'><img src='img_contato.jpg' class='img_logo'> Contato: </img></span>(062) 98166-7365 </div>
+
+</div>
+</body>
+</html>
